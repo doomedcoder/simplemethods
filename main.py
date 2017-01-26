@@ -22,11 +22,12 @@ class simplemethod:
         print x1-x2
     def multiply(self,z1,z2):
         print z1*z2
-newone=simplemethods() 
-newone.add(2,3)
-newone.subtract(5,3)
-newone.multiply(5,34) 
+
 
 
 if __name__=="__main__":
     print "This is Srihari Unnikrishnan's file !"
+    newone=simplemethods() 
+    newone.add(2,3)
+    newone.subtract(5,3)
+    newone.multiply(5,34) 
